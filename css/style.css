@@ -1,5 +1,5 @@
 body {
-
+	font-family: 'Quicksand', sans-serif;
 }
 
 .navbar.navbar-static-top {
@@ -40,11 +40,19 @@ div#navhead-wrapper {
 	margin-right: 0;
 
 }*/
+div#navbar {
+	width: 100%;
+	margin-right: 0;
+	margin-left:0;
+	padding-right: 0;
+	padding-left: 0;
+}
 
 #navbar-collapse-1 {
 	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
 }
-
 
 a.navbar-brand {
 	background-color:white;
@@ -74,6 +82,8 @@ a.navbar-brand {
 	background-color: red;
 
 }
+
+
 
 #search-li {
 	float:right;
@@ -153,4 +163,59 @@ a.navbar-brand {
 
 .searchbox-open{
     width:100%;
+}
+
+img#nathan-png {
+	margin: 0;
+	display: inline;
+	max-width: 20%;
+	float: left;
+}
+
+.quote-it {
+	float: left;
+	position: relative;
+	display: inline;
+}
+
+#span1 {
+	padding-left: 2em;
+}
+#span2 {
+	padding-left: 3em;
+}
+#span3 {
+	padding-left: 4em;
+}
+
+
+
+
+
+
+
+/*Media queries*/
+
+@media (max-width: 1065px) {
+	p {
+		font-size: 12px;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 930px) {
+	h3 {
+		font-size: 14px;
+		font-weight: 700;
+	}
+	p {
+		max-width: 60%;
+		font-size: 10px;
+		margin 0;
+	}
+	#span1, #span2, #span3 {
+		padding-left: 0;
+	}
+
+
 }
