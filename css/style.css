@@ -285,13 +285,12 @@ img#nathan-quote {
 		font-size: 12px;
 		margin-left: 5%;
 	}
-	#navbar {
+	div.navbar-header {
 		background-color: white;
 		
 	}
 
 	#navbar-collapse-1 {
-		background-color: white;
 		max-height: 100%;
 	}
 
