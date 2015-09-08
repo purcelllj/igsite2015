@@ -42,7 +42,7 @@
             }
 
 
-            var scrollPosition = 0, delta = 50;
+            var scrollPosition = 0, delta = 200;
 
             $(window).scroll(function(){
                 var scrollTop = $(this).scrollTop();
