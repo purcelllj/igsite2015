@@ -249,6 +249,7 @@ section {
 
 hr {
 	border-width: 2px;
+	border-color: gray;
 }
 
 #video-desc {
@@ -301,6 +302,7 @@ td {
 @media (max-width: 1070px) {
     .navbar-header {
         float: none;
+        background-color: gray;
     }
     .navbar-left,.navbar-right {
         float: none !important;
@@ -364,7 +366,7 @@ td {
 		font-size: 12px;
 	}
 	div.navbar-header {
-		background-color: white;
+		background-color: gray;
 		
 	}
 
