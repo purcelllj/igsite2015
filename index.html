@@ -43,12 +43,21 @@
 
 						<ul class="nav navbar-nav navbar-right"> 
 						    <li id="nav-right"><a href="#">LET'S TALK</a></li>
-							<li>
+							<li  id="d-top">
 							<form class="searchbox nav navbar-right">
 								<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
 								<input type="submit" class="searchbox-submit" value="GO">
 								<span class="searchbox-icon"><img src="img/search.png" id="search-img" alt="Search Icon"></span>
 							</form>
+							</li>
+							<li id="mobile">
+							<form class="navbar-form navbar-center" role="search">
+        
+        						<div class="form-group">
+          						<input type="text" id="searchinp" class="form-control" placeholder="Search">
+        						</div><br><br>
+        						<button type="submit" id="go-btn" class="btn btn-default">GO</button>
+      						</form>
 							</li>
 						    
 						    
@@ -62,7 +71,7 @@
 	<section id="opener">	
 		<div class="container" id="visible">	
 			<div class="container">	
-				<img id="nathan-png" src="img/nathan2.png" alt="">
+				<img id="nathan-png" class="img-responsive" src="img/nathan2.png" alt="">
 				<h1 class="quote-it"><strong>"Your company needs relevent information to compete."</strong></h1><br>
 				<p class="quote-it">
 					"Popular search engines only deliver 20% of what's on the web. Most of it by paid search.Infogentsia searches and delivers the other 80% filtered for the exact relevant information you need and want. Let's talk and see what Infogentsia can bring you today."
@@ -105,32 +114,27 @@
 	</section>	
 
 	<div class="footer">
-		<div class="container">	
-			<div class="container-fluid">
-				<table>
-					<tfoot>
-						<tr>
-							<td>
-								<p><strong>INFOGENTSIA</strong></p>
-								<p>919 SW Taylor St #230 <br>Portland, OR 97205</p>
-							</td>
-							<td>
-								<p><strong>INFOGENTSIA</strong></p>
-								<p>123 main st <br> vancouver wa 98665</p>
-							</td>
-							<td>
-								<p><strong>INFOGENTSIA</strong></p>
-								<p>123 main st <br> vancouver wa 98665</p>
-							</td>
-							<td>
-								<p><strong>INFOGENTSIA</strong></p>
-								<p>123 main st <br> vancouver wa 98665</p>
-							</td>
-						</tr>
-					</tfoot>
-				</table>
+		<div class="container navbar-center">	
+			<div class="row">
+				<div class="col-sm-3">
+					<p>INFOGENTSIA</p>
+					<p>512 Northwest 17th Ave <br> Portland, OR 97209</p>
+
+				</div>
+				<div class="col-sm-3">
+					
+				</div>
+				<div class="col-sm-3">
+					<p>ABOUT</p><br>
+					<p>CAREERS</p><br>
+					<p>PRESS</p><br>
+					<p>TESTIMONIALS</p>
+				</div>
+				<div class="col-sm-3">
+					
+				</div>
 			</div>
-		</div>
+		</div>	
 	</div>
 </body>
 </html>

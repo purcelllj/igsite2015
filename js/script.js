@@ -1,4 +1,6 @@
  $(document).ready(function(){
+            
+            //searchbox hide/show
             var submitIcon = $('.searchbox-icon');
             var inputBox = $('.searchbox-input');
             var searchBox = $('.searchbox');
@@ -42,6 +44,22 @@
             }
 
 
+            //removing hidden search input in mobile view
+
+            var $dTop = $('#d-top');
+            var $mobile = $('#mobile');
+
+
+            if($(window).width() < 1070){
+                $dTop.hide();
+                $mobile.show();
+            }else{
+                $mobile.hide();
+                $dTop.show();
+            }
+
+
+            //navbar hide effect on scroll
             var scrollPosition = 0, delta = 200;
 
             $(window).scroll(function(){
