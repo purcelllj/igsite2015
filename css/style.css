@@ -185,6 +185,7 @@ ul.nav.navbar-nav > li > a {
 }
 #visible, #hidden {
 	margin-top: 25px;
+	max-width: 100%;
 }
 img#nathan-png {
 
