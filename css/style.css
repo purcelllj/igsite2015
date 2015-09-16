@@ -212,14 +212,13 @@ img#nathan-quote {
 	max-width: 70%;
 	margin-left: -15px;
 	position: relative;
-	
 	font-weight: 700;
 }
 
 hr {
 	margin: 0;
-	border-width: 2px;
-	border-color: gray;
+	border-width: 3px;
+	border-color: darkgray;
 }
 
 section#ocean {	
@@ -242,6 +241,7 @@ section#ocean {
 #inner-pitcher {
 	margin-top: 110px;
 	margin-bottom: 110px;
+	opacity: 0.9;
 }
 	
 
@@ -274,14 +274,55 @@ img.inline {
 	z-index: 3;
 }
 
+#industry {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.col-md-4 img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.col-md-4 > p {
+	max-width: 80%;
+	text-align: justified;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
 .footer {
 	background-color: #D9534F;
 	color: white;
 	padding: 20px;
-	margin-top: 50px;
+	font-size: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	
 }
 
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	background-color: inherit !important;
+}
+.footer a:active {
+	text-decoration: none;
+	background-color: inherit !important;
+}
+.footer a:visited {
+	text-decoration: none;
+	background-color: inherit !important;
+}
 .footer-font {
 	font-size: 10px;
 }
@@ -358,6 +399,26 @@ img.inline {
 
 	#searchinp {
 		max-width: 75%;
+	}
+	p#oceanofweb {
+		font-size: 20px;
+		float: none;
+		position: relative;
+		vertical-align: inherit !important;
+		text-align: center;
+	}
+
+	#inner-ocean {
+		margin-top: 20px;
+	}
+	#inner-pitcher {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
