@@ -436,6 +436,9 @@ img#julie-pic {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#vid {
+		height: 240px;
+	}
 }
 
 @media (max-width: 1065px) {

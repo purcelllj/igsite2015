@@ -32,8 +32,16 @@
             
             //pageload effects
             var $visibleDiv = $('#visible');
-            
-            $visibleDiv.hide().fadeIn(1000);
+            var $hidden = $('#hidden');
+
+                if($(window).width() < 500){
+                    $hidden.hide();
+                    $visibleDiv.hide();
+                    $hidden.fadeIn(1000);
+                }else{
+                    $hidden.hide();
+                    $visibleDiv.hide().fadeIn(1000);
+                }
 
             //removing hidden search input in mobile view
 
@@ -42,9 +50,11 @@
 
 
             if($(window).width() < 1070){
+                
                 $dTop.hide();
                 $mobile.show();
             }else{
+                
                 $mobile.hide();
                 $dTop.show();
             }
@@ -72,7 +82,10 @@
             //testimonials dynamic view
             
             var $execs = $('#executives');
-            var $atts = $('#attorneys');      
+            var $atts = $('#attorneys');
+
+
+
 
 
 
