@@ -30,19 +30,10 @@
                 });
 
             
-            //change quote view in mobile
+            //pageload effects
             var $visibleDiv = $('#visible');
-            var $hiddenDiv = $('#hidden');
-
-           
-
-            if($(window).width() < 600){
-            	$visibleDiv.hide();
-            	$hiddenDiv.hide().fadeIn(2000);
-            }else{
-            	 $hiddenDiv.hide();
-            }
-
+            
+            $visibleDiv.hide().fadeIn(1000);
 
             //removing hidden search input in mobile view
 
@@ -75,6 +66,14 @@
                     scrollPosition = scrollTop;
                  }   
             });
+
+
+
+            //testimonials dynamic view
+            
+            var $execs = $('#executives');
+            var $atts = $('#attorneys');      
+
 
 
 
