@@ -1,5 +1,5 @@
 body {
-	font-family:'Arimo', sans-serif;
+	/*font-family:'Arimo', sans-serif;*/
 	color: #423E3E;
 }
 
@@ -250,7 +250,7 @@ p#oceanofweb {
 	margin-right: auto;
 	vertical-align: middle;
 	max-width: 50%;
-	font-size: 32px;
+	font-size: 26px;
 	text-shadow: 2px 3px rgba(0, 0, 0, 0.4);
 	
 }
@@ -266,7 +266,6 @@ img.inline {
 }
 
 #vid {
-	border: 2px solid black;
 	z-index: 3;
 }
 
@@ -283,21 +282,58 @@ img.inline {
 	padding-bottom: 15px;
 }
 .col-md-4 > p {
-	max-width: 80%;
 	text-align: justified;
 	margin-left:auto;
 	margin-right: auto;
+}
+
+.col-md-4 > p a {
+	color:#b2b2b2;
+	text-decoration: none;
+}
+
+.col-md-4 >p a:hover {
+	color: #1D75EE;
 }
 #custom-designed {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+div.thumbnail{
+	margin: 10px;
+}
+
+
+div.thumbnail p a {
+	text-decoration: none;
+	color: #b2b2b2;
+}
+
+div.thumbnail p a:hover {
+	color:#1D75EE;
+}
 img#julie-pic {
-	width: 200px;
 	height: 200px;
-	box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.7);
+	width: 200px;
+	display: table;
+	float:none;
+	clear:both;
+	margin-left: auto;
+    margin-right: auto;
 	padding-bottom: 0;
 	padding-top: 0;
+}
+
+img#julie-test{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+
+}
+#exec-float {
+	margin: 10px;
 }
 #test {
 	max-width: 80%;
@@ -310,6 +346,10 @@ img#julie-pic {
 	margin-right: auto;
 
 }
+
+.list-group-item {
+	text-align: center;
+}
 .footer {
 	background-color: #D9534F;
 	color: white;
@@ -320,6 +360,11 @@ img#julie-pic {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	
+}
+
+.footer-nav li {
+	display: block;
+	padding: 10px;
 }
 
 .footer a {
@@ -437,7 +482,15 @@ img#julie-pic {
 		margin-right: auto;
 	}
 	#vid {
-		height: 240px;
+		height: 225px;
+	}
+
+	img#julie-test{
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin: 20px;
+
 	}
 }
 
@@ -501,5 +554,8 @@ img#julie-pic {
 
 	.searchbox-input {
 		width: 80%;
+	}
+	#vid {
+		height: 185px;
 	}
 }

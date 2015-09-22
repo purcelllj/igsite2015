@@ -37,10 +37,10 @@
                 if($(window).width() < 500){
                     $hidden.hide();
                     $visibleDiv.hide();
-                    $hidden.fadeIn(1000);
+                    $hidden.fadeIn('fast');
                 }else{
                     $hidden.hide();
-                    $visibleDiv.hide().fadeIn(1000);
+                    $visibleDiv.hide().fadeIn('fast');
                 }
 
             //removing hidden search input in mobile view
@@ -78,13 +78,22 @@
             });
 
 
-
             //testimonials dynamic view
             
             var $execs = $('#executives');
             var $atts = $('#attorneys');
+            var $des = $('#design');
+            var $listItem = $('.list-group-item');
 
+            $execs.hide();
+            $atts.hide();
+            $des.hide();
 
+            $listItem.on('click', function(){
+                $('article').hide();
+                $($(this).data('target')).show();
+
+            });
 
 
 
