@@ -37,13 +37,14 @@
 				    <div class="collapse navbar-collapse" id="navbar-collapse-1">
 						<ul class="nav navbar-nav text-center" id="nav-menu">
 						    <li class="active"><a href="#">CATEGORIES<span class="sr-only">(current)</span></a></li>
-						    <li><a href="#">TESTIMONIALS</a></li>
-						    <li><a href="#">PRESS</a></li>
-						    <li><a href="#">ABOUT</a></li>
+						    <li><a href="testimonials.html">TESTIMONIALS</a></li>
+						    <li><a href="about.html">ABOUT</a></li>
+						    <li><a href="index.html">HOME</a></li>
+
 						</ul>  
 
 						<ul class="nav navbar-nav navbar-right"> 
-						    <li id="nav-right"><a href="#">LET'S TALK</a></li>
+						     <li id="nav-right"><a href="tel:+1-503-701-8747"><img src="img/phone.png" id="phone-ico" alt="phone">LET'S TALK</a><br><span id="tely"><a href="tel:+1-503-701-8747">+1-503-701-8747</a></span></a></li>
 							<li  id="d-top">
 							<form class="searchbox nav navbar-right">
 								<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
@@ -74,6 +75,7 @@
 			 <a class="list-group-item" href="#" data-target="#executives">EXECUTIVES</a></li>
 			 <a class="list-group-item" href="#" data-target="#attorneys">ATTORNEYS</a></li>
 			 <a class="list-group-item" href="#" data-target="#design">DESIGN & RETAIL</a></li>
+			 <a class="list-group-item" href="#" data-target="#marketing">MARKETING</a></li>
 	    </div>
 		
 		<article id="executives">
@@ -116,13 +118,32 @@
 			<div class="container">
 				<div class="row" id="julie">
 					<!-- <div class="col-sm-3"> -->
-						<img src="img/puji.png" class="img-responsive" alt="attorney photo" id="julie-test">
+						<img src="img/puji.png" class="img-responsive" alt="design and retail photo" id="julie-test">
 					<!-- </div> -->
 				
 					<!-- <div class="col-sm-9"> -->
 						<h1>DESIGN & RETAIL</h1>
 						<p id="att-float">
 							“As a paint company focused on color+design, the Infogentsia platform puts current color trends, color forecasting information, and competitor color and product releases in my inbox each morning.  This curated approach not only saves me time, but also helps make sure I'm not missing anything in the big wide world of color.  Being clued into what is happening here in the US in interiors as well as globally- from Europe to South America helps me create the richest content possible for Colorhouse.”
+						</p>
+					<!-- </div> -->
+				</div>
+			</div>
+
+		</article>
+
+
+		<article id="marketing">
+			<div class="container">
+				<div class="row" id="julie">
+					<!-- <div class="col-sm-3"> -->
+						<img src="img/scott.png" class="img-responsive" alt="marketing photo" id="julie-test">
+					<!-- </div> -->
+				
+					<!-- <div class="col-sm-9"> -->
+						<h1>MARKETING</h1>
+						<p id="att-float">
+							"Infogentsia has become an important research tool for our firm.  It allows us to keep our clients informed on important facts and trends.  It's easy to use, saves us an enormous amount of time having the information funnel into one news feed both subscription and free news articles.  We've found the information is more in-depth than what you find through traditional search engines which provides us richer, more meaningful information in the the business sectors our clients compete in."
 						</p>
 					<!-- </div> -->
 				</div>
@@ -140,30 +161,62 @@
 	
 
 	<div class="footer">
+		<br>
 		<div class="container navbar-center">	
 			<div class="row">
-				<div class="col-sm-3">
-					<p class="footer-font">INFOGENTSIA</p>
-					<p class="footer-font">512 Northwest 17th Ave <br> Portland, OR 97209</p>
-
-				</div>
-				<div class="col-sm-3">
+				<div class="container">
+				<div class="col-md-3">
 					
+					<ul class="footer-nav">
+						<h4>INFOGENTSIA</h4>
+						<address>
+						512 Northwest 17th Ave <br> Portland, OR 97209
+						</address>
+						
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/twitter.png" alt="twitter"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/linkedin.png" alt="LinkedIn"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/google_plus.png" alt="google +"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/rss.png" alt="rss"></a></li>
+
+					</ul>
+					<img src="" alt="">
 				</div>
-				<div class="col-sm-3">
-					<ul class="nav">
-						<li class="footer"><a href="#">ABOUT</a></li>
-						<li class="footer"><a href="#">CAREERS</a></li>
-						<li class="footer"><a href="#">PRESS</a></li>
-						<li class="footer"><a href="#">TESTIMONIALS</a></li>
+				<div class="col-md-3">
+					
+					<ul class="footer-nav pull-left">
+					<h4 class="pull-left">CATEGORIES</h4><br><br><br>
+						<li class="footer"><a href="#">LOREM IPSUM</a></li>
+						<li class="footer"><a href="#">AUT, CONSEQUATUR..</a></li>
+						<li class="footer"><a href="#">PERFERANDIS VOLUPTATEM.</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-nav pull-left">
+					<h4 class="pull-left">SITE LINKS</h4>
+						<li class="footer"><a href="about.html">ABOUT</a></li>
+						<li class="footer"><a href="categories.html">CATEGORIES</a></li>
+						<li class="footer"><a href="index.html">HOME</a></li>
+						<li class="footer"><a href="testimonials.html">TESTIMONIALS</a></li>
 					</ul>
 					
 				</div>
-				<div class="col-sm-3">
-					
+				<div class="col-md-3">
+					<ul class="footer-nav pull-left">
+						<h4 class="pull-left">GET UPDATES</h4>
+						<form action="submit">
+							<input type="email" id="email"placeholder="E-mail Address"><br><br>
+							<button type="button" class="btn btn-default" id="update-sub">Submit</button>
+						</form>
+					</ul>
 				</div>
+
 			</div>
-		</div>	
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+		<p class="text-center" id="copyright">&copy Copyright INFOGENTSIA 2015</p>	
+		</div>
 	</div>
 </body>
 </html>

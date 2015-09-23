@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900italic,700italic,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
@@ -39,12 +41,13 @@
 						<ul class="nav navbar-nav text-center" id="nav-menu">
 						    <li class="active"><a href="#">CATEGORIES<span class="sr-only">(current)</span></a></li>
 						    <li><a href="testimonials.html">TESTIMONIALS</a></li>
-						    <li><a href="#">PRESS</a></li>
 						    <li><a href="#">ABOUT</a></li>
+						    <li><a href="index.html">HOME</a></li>
+
 						</ul>  
 
 						<ul class="nav navbar-nav navbar-right"> 
-						    <li id="nav-right"><a href="#">LET'S TALK</a></li>
+						    <li id="nav-right"><a href="tel:+1-503-701-8747"><img src="img/phone.png" id="phone-ico" alt="phone">LET'S TALK</a><br><span id="tely"><a href="tel:+1-503-701-8747">+1-503-701-8747</a></span></a></li>
 							<li  id="d-top">
 							<form class="searchbox nav navbar-right">
 								<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
@@ -104,7 +107,6 @@
 			</article>	
 	</div> <!--page-wrap-->
 
-			<hr>
 
 			<article id="ocean">
 				<div class="container">
@@ -120,7 +122,6 @@
 				</div>
 			</article>
 
-			<hr>
 	
 	<div class="container" id="page-wrap"></div>
 			<article id="custom-designed">
@@ -129,12 +130,12 @@
 						<div class="row">
 							<div class="col-md-6" id="industry">
 								<a href="#" class="text-center">
-								<img src="img/industry.png" alt="industry icons" class="img-responsive">
+								<img src="img/industry2.png" alt="industry icons" class="img-responsive">
 								</a>
 							</div>
 						
 							<div class="col-md-6" id="industry-ad">
-								<h2>Custom designed to find the information you need - no matter your business or profession.</h2>
+								<h2 class="text-center">Custom designed to find the information you need - no matter your business or profession.</h2>
 							</div>
 
 						</div>
@@ -148,7 +149,7 @@
 				<div class="container">
 					<div class="container">
 
-						<h1 class="text-center">In their own words...</h1><br><br>
+						<h1 id="cust-testimonials" class="text-center">CUSTOMER TESTIMONIALS</h1><br><br>
 						<div class="row" id="test">
 							<div class="col-sm-6 col-md-4 testimonials">
 								<!-- <div class="container"> -->
@@ -193,30 +194,59 @@
 		<br>
 		<div class="container navbar-center">	
 			<div class="row">
-				<div class="col-sm-3">
-					<h4>INFOGENTSIA</h4>
-					<address>
+				<div class="container">
+				<div class="col-md-3">
+					
+					<ul class="footer-nav">
+						<h4>INFOGENTSIA</h4>
+						<address>
 						512 Northwest 17th Ave <br> Portland, OR 97209
-					</address>
+						</address>
+						
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/twitter.png" alt="twitter"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/linkedin.png" alt="LinkedIn"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/google_plus.png" alt="google +"></a></li>
+						<li class="footer-soc"><a href="#"><img id="soc-img" src="img/rss.png" alt="rss"></a></li>
+
+					</ul>
 					<img src="" alt="">
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3">
 					
+					<ul class="footer-nav pull-left">
+					<h4 class="pull-left">CATEGORIES</h4><br><br><br>
+						<li class="footer"><a href="#">LOREM IPSUM</a></li>
+						<li class="footer"><a href="#">AUT, CONSEQUATUR..</a></li>
+						<li class="footer"><a href="#">PERFERANDIS VOLUPTATEM.</a></li>
+					</ul>
 				</div>
-				<div class="col-sm-3">
-					<ul class="footer-nav">
+				<div class="col-md-3">
+					<ul class="footer-nav pull-left">
+					<h4 class="pull-left">SITE LINKS</h4>
 						<li class="footer"><a href="about.html">ABOUT</a></li>
 						<li class="footer"><a href="categories.html">CATEGORIES</a></li>
-						<li class="footer"><a href="press.html">PRESS</a></li>
+						<li class="footer"><a href="index.html">HOME</a></li>
 						<li class="footer"><a href="testimonials.html">TESTIMONIALS</a></li>
 					</ul>
 					
 				</div>
-				<div class="col-sm-3">
-					
+				<div class="col-md-3">
+					<ul class="footer-nav pull-left">
+						<h4 class="pull-left">GET UPDATES</h4>
+						<form action="submit">
+							<input type="email" id="email"placeholder="E-mail Address"><br><br>
+							<button type="button" class="btn btn-default" id="update-sub">Submit</button>
+						</form>
+					</ul>
 				</div>
+
 			</div>
-		</div>	
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+		<p class="text-center" id="copyright">&copy Copyright INFOGENTSIA 2015</p>	
+		</div>
 	</div>
 </body>
 </html>

@@ -50,7 +50,7 @@
 
 
             if($(window).width() < 1070){
-                
+                $('span#tely').hide();
                 $dTop.hide();
                 $mobile.show();
             }else{
@@ -83,11 +83,13 @@
             var $execs = $('#executives');
             var $atts = $('#attorneys');
             var $des = $('#design');
+            var $market = $('#marketing');
             var $listItem = $('.list-group-item');
 
             $execs.hide();
             $atts.hide();
             $des.hide();
+            $market.hide();
 
             $listItem.on('click', function(){
                 $('article').hide();

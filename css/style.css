@@ -17,7 +17,6 @@ h1 {
 
 
 
-
 a.navbar-brand {
 /*	font-family: 'Montserrat', sans-serif;
 	font-wiegt: bold;*/
@@ -96,7 +95,12 @@ ul.nav.navbar-nav > li > a {
 
 }
 
-
+span#tely a{
+	margin: 0 auto;
+	width: 100%;
+	background-color:gray;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
+}
 
 #search-li {
 	float:right;
@@ -217,8 +221,8 @@ img#nathan-quote {
 
 hr {
 	margin: 0;
-	border-width: 3px;
-	border-color: darkgray;
+	border-width: 1px;
+	border-color:gray;
 }
 
 #ocean {	
@@ -300,6 +304,10 @@ img.inline {
 	margin-right: auto;
 }
 
+#cust-testimonials {
+	color: #000000;
+	opacity: 0.5;
+}
 div.thumbnail{
 	margin: 10px;
 }
@@ -352,19 +360,18 @@ img#julie-test{
 }
 .footer {
 	background-color: #D9534F;
+	text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
 	color: white;
-	padding: 20px;
+	padding: 20px 0;
 	font-size: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
 	
 }
 
 .footer-nav li {
 	display: block;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .footer a {
@@ -384,9 +391,42 @@ img#julie-test{
 	text-decoration: none;
 	background-color: inherit !important;
 }
-.footer-font {
-	font-size: 10px;
+
+img#soc-img {
+	height:25px;
+	width:25px;
+	background-color:gray;
 }
+
+li.footer-soc{
+	display: inline;
+	height: 25px;
+	width: 25px;
+}
+
+#email {
+	color: gray;
+}
+
+button#update-sub {
+	width: 75px;
+	height: 30px;
+	background-color: gray;
+	color: white;
+	border: none;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+
+#copyright {
+	font-size: 12px;
+	color:black;
+	text-shadow: none;
+	font-weight: 900;
+	margin: 15px 0;
+}
+
+
+
 
 
 
