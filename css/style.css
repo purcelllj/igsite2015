@@ -15,8 +15,13 @@ h1 {
 	text-shadow: 1px 0px  black;
 }
 
+nav.navbar.navbar-fixed-top{
+	height: 50px;
+}
 
-
+#navvy{
+	height: 50px;
+}
 a.navbar-brand {
 /*	font-family: 'Montserrat', sans-serif;
 	font-wiegt: bold;*/
@@ -66,7 +71,8 @@ ul#nav-menu>li a {
 }
 
 ul#nav-menu>li a:hover, ul#nav-menu>li a:focus {
-	background-color: darkgray;
+	background-color: gray;
+	text-shadow: 0px 0px 10px rgba(250, 250, 250, 0.8);
 }
 
 #go-btn {
@@ -88,6 +94,7 @@ ul.nav.navbar-nav > li > a {
 	margin-left: 15px;
 }
 #nav-right a{
+	font-size: 14px;
 	text-decoration: none;
 	color: white;
 	float: right;
@@ -95,8 +102,13 @@ ul.nav.navbar-nav > li > a {
 
 }
 
+#nav-right a:hover, #nav-right a:focus {
+	text-shadow: 0px 0px 10px rgba(250,250,250, 0.8);
+}
+
 span#tely a{
 	margin: 0 auto;
+	font-size: 14px;	
 	width: 100%;
 	background-color:gray;
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
@@ -212,9 +224,9 @@ img#nathan-quote {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
-  	background-color: transparent;
 
 }
+
 
 .quote-it {
 }
@@ -340,8 +352,9 @@ img#julie-test{
 	margin: 20px;
 
 }
-#exec-float {
-	margin: 10px;
+p.floatIt {
+	/*margin: 10px;*/
+	padding:15px;
 }
 #test {
 	max-width: 80%;
@@ -360,7 +373,7 @@ img#julie-test{
 }
 .footer {
 	background-color: #D9534F;
-	text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 	color: white;
 	padding: 20px 0;
 	font-size: 10px;
@@ -382,6 +395,7 @@ img#julie-test{
 .footer a:hover {
 	text-decoration: none;
 	background-color: inherit !important;
+	text-shadow: 0 0 10px rgba(250,250,250, 0.8);
 }
 .footer a:active {
 	text-decoration: none;
@@ -392,17 +406,32 @@ img#julie-test{
 	background-color: inherit !important;
 }
 
+a.soc > img{
+	color: white;
+	opacity: 1.0;
+}
+
 img#soc-img {
 	height:25px;
 	width:25px;
-	background-color:gray;
 }
 
+
+
 li.footer-soc{
-	display: inline;
+	display: block;
 	height: 25px;
 	width: 25px;
+	padding:15px;
 }
+
+li.footer-soc > a img {
+	color: #b2b2b2;
+} 
+li.footer-soc a:hover {
+	color: #ffffff;
+	text-shadow: 0 0 10px rgba(250,250,250,0.8);
+} 
 
 #email {
 	color: gray;
@@ -423,6 +452,108 @@ button#update-sub {
 	text-shadow: none;
 	font-weight: 900;
 	margin: 15px 0;
+}
+
+/*TESTIMONIALS STYLESHEET*/
+div#office2 {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/oceanweb.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+div#office2 h1 {
+	font-size: 36px;
+	color: white;
+	/*text-shadow: 1px 1px 5px rgba(250,250,250,0.8);*/
+}
+#test-nav {
+	margin-top: 10%;
+	max-width: 60%;
+	margin-left:auto;
+	margin-right: auto;
+	background-color:rgba(0,0,0,0.3);
+
+}
+#test-nav li{
+	display: inline-table;
+}
+
+#test-nav>li a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+
+#test-nav>li a:hover {
+	text-shadow: 0px 0px 10px rgba(250,250,250, 0.8);
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+/*ABOUT STYLESHEET*/
+#about-one>h1{
+	font-size: 34px;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	max-width: 60%;
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20%;
+
+}
+#about-one>p{
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	max-width: 80%;
+}
+div#about-one-back {
+	width: 100%;
+	height: 700px;
+	background-image: url('../img/office1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+button#learn-more {
+	background-color: #D9534F;
+	color: #fff;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+button#learn-more a{
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+button#learn-more a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0px 0px 10px rgba(250,250,250, 0.8);
+}
+#about-two {
+	margin-top:10%;
+	margin-bottom: 10%;
+	max-width: 60%;
+	background-color: #;
 }
 
 
@@ -521,7 +652,7 @@ button#update-sub {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#vid {
+	#video {
 		height: 225px;
 	}
 

@@ -80,26 +80,40 @@
 
             //testimonials dynamic view
             
-            var $execs = $('#executives');
-            var $atts = $('#attorneys');
-            var $des = $('#design');
-            var $market = $('#marketing');
-            var $listItem = $('.list-group-item');
+            // var $execs = $('#executives');
+            // var $atts = $('#attorneys');
+            // var $des = $('#design');
+            // var $market = $('#marketing');
+            // var $listItem = $('.list-group-item');
 
-            $execs.hide();
-            $atts.hide();
-            $des.hide();
-            $market.hide();
+            // $execs.hide();
+            // $atts.hide();
+            // $des.hide();
+            // $market.hide();
 
-            $listItem.on('click', function(){
-                $('article').hide();
-                $($(this).data('target')).show();
+            // $listItem.on('click', function(){
+            //     $('article').hide();
+            //     $($(this).data('target')).show();
 
+            // });
+        
+            var $bout = $('#about-one-back'); 
+
+            $bout.hide();
+            $bout.fadeIn(1000);
+
+            var $abtButton = $('#learn-more>a');
+
+            $abtButton.on('click', function(){
+                $('#about-two').hide();
+                $('#about-two').fadeIn(1000);
             });
 
+            //pageload for testimonials
+            var $testimony = $('#office2');
 
-
-
+            $testimony.hide();
+            $testimony.fadeIn(1000);
 
         });
             
