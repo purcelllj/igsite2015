@@ -576,6 +576,11 @@ button#learn-more a:hover {
 	background-position: center;
 }
 
+#map {
+	width: 50%;
+	height: 300px;
+}
+
 
 
 
