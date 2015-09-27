@@ -68,7 +68,7 @@
                 
                 if(Math.abs(scrollPosition - scrollTop) >= delta){
                     if(scrollTop > scrollPosition){
-                        $('#navbar').css('opacity', 0.05);
+                        $('#navbar').css('opacity', 0.0);
 
                     }else{
                         $('#navbar').css('opacity', 1);
@@ -114,6 +114,19 @@
 
             $testimony.hide();
             $testimony.fadeIn(1000);
+
+
+            //pageload contact us
+
+            var $contact = $('#contact-one');
+
+            $contact.hide();
+            $contact.fadeIn(1000);
+
+
+
+
+
 
         });
             
