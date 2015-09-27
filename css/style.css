@@ -688,6 +688,7 @@ button#learn-more a:hover {
 		margin: 20px;
 
 	}
+
 }
 
 @media (max-width: 1065px) {
@@ -753,5 +754,8 @@ button#learn-more a:hover {
 	}
 	#vid {
 		height: 185px;
+	}
+	#map {
+		width: 100%;
 	}
 }
