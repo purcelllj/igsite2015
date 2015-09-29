@@ -102,7 +102,7 @@
             $bout.hide();
             $bout.fadeIn(1000);
 
-            var $abtButton = $('#learn-more>a');
+            var $abtButton = $('a>#learn-more');
 
             $abtButton.on('click', function(){
                 $('#about-two').hide();
