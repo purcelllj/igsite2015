@@ -126,7 +126,8 @@
 
 
 
-
+            //refresh page on resize
+            $(window).resize(function(){$('#navbar').reload();});
 
         });
             
