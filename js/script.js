@@ -127,10 +127,41 @@
 
 
             //refresh page on resize
-            $(window).resize(function(){$('#navbar').reload();});
+            
+            var $width = $(window).width();
+
+
+            $(window).resize(function(){
+                if($(window).width() !== $width){
+                    location.reload();
+                }else{
+                    console.log('Window width has not changed. No refresh necessary')
+                    return false;
+                }
+            });
+
+
+            // $(window).resize(function(e){
+            //     e.preventDefault();
+            //     location.reload();
+
+            // });
+
+
+
+
+
+
+
+
 
         });
             
+            
+
+
+
+
 
             function buttonUp(){
                 var inputVal = $('.searchbox-input').val();
