@@ -227,6 +227,10 @@ img#nathan-quote {
 
 }
 
+#hidden {
+	display: none;
+}
+
 
 .quote-it {
 }
@@ -352,12 +356,19 @@ img#julie-test{
 	margin: 20px;
 
 }
+
+.testp {
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+}
 p.floatIt {
 	/*margin: 10px;*/
 	padding:15px;
 }
 #test {
-	max-width: 80%;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -377,7 +388,15 @@ p.floatIt {
 	color: white;
 	padding: 20px 0;
 	font-size: 14px;
+
 	
+}
+
+div.footer {
+	box-shadow: inset 0px 10px 15px -10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0px 10px 15px -10px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 10px 15px -10px rgba(0,0,0,0.5);
+	-o-box-shadow: inset 0px 10px 15px -10px rgba(0,0,0,0.5);
 }
 
 .footer h4 {
@@ -387,6 +406,9 @@ p.floatIt {
 .footer-nav li {
 	display: block;
 	padding: 10px 0;
+}
+ul.footer-nav {
+	padding-left:0px;
 }
 
 .footer a {
@@ -438,9 +460,14 @@ button#update-sub {
 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 }
 
+#footerhr {
+	border-color: #D9534F;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
 #copyright {
 	font-size: 12px;
-	color:black;
+	color:#794B4B;
 	text-shadow: none;
 	font-weight: 900;
 	margin: 15px 0;
@@ -458,8 +485,9 @@ div#office2 {
 }
 
 div#office2 h1 {
-	font-size: 36px;
+	font-size: 30px;
 	color: white;
+	font-style: italic;
 	/*text-shadow: 1px 1px 5px rgba(250,250,250,0.8);*/
 }
 #test-nav {
@@ -547,13 +575,13 @@ a>button#learn-more:hover {
 #about-two {
 	margin-top:10%;
 	margin-bottom: 10%;
-	max-width: 70%;
+	max-width: 90%;
 	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);*/
 	
 }
 #about-two p {
 	font-size: 20px;
-	text-align: justify;
+	text-align: left;
 	text-shadow: 0px 0px rgba(0,0,0,0.5);
 }
 
@@ -630,7 +658,11 @@ form#contacto {
 	}
 
 	#nav-right {
-		margin-right: 15px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	#tely {
+		display: none;
 	}
 	.quote-it {
 		margin-left: auto;
@@ -673,9 +705,7 @@ form#contacto {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#video {
-		height: 225px;
-	}
+	
 
 	img#julie-test{
 		width: 100px;
@@ -706,7 +736,7 @@ form#contacto {
 		margin-right:auto;
 	}*/
 	ul.pull-left {
-		padding-left: 10px;
+		padding-left: 0px;
 	}
 }
 
@@ -748,10 +778,26 @@ form#contacto {
 
 @media (max-width: 930px) {
 	h1,h3 {
-		font-size: 12px;
-		font-weight: 700;
+		font-size: 16px;
+		font-weight: 400;
 	}
-	
+
+	#about-one>h1 {
+		font-size: 20px;
+		max-width: 95%;
+	}
+
+	#abouttag {
+		font-size: 18px;
+	}
+
+	#about-two>p {
+		font-size: 16px;
+		margin: 5px;
+	}
+	p#oceanofweb {
+		max-width: 80%;
+	}
 	#navbar-collapse-1 {
 		max-height: 100%;
 		background-color:gray;
@@ -776,5 +822,20 @@ form#contacto {
 	}
 	#map {
 		width: 100%;
+	}
+
+}
+
+@media (max-width: 600px) {
+	div#visible {
+		display: none;
+	}
+
+	div#hidden {
+		display: inherit !important;
+	}
+
+	#video {
+		height: 225px;
 	}
 }
